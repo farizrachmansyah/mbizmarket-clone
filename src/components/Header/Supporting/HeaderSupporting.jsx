@@ -2,7 +2,7 @@ import HeaderSupportingAcc from './HeaderSupportingAcc';
 
 const HeaderSupporting = () => {
   return (
-    <div className="py-2 bg-primary">
+    <div className="hidden md:block py-2 bg-primary">
       <div className="container flex items-center justify-between text-white text-xs font-bold">
         <div className="flex gap-1">
           <a href="https://www.mbizmarket.co.id/cara-berjualan" target="_blank" rel="noopener noreferrer">
