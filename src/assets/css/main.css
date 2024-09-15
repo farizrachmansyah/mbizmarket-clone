@@ -1,0 +1,27 @@
+@import './modules/modules.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Nunito Sans', system-ui, sans-serif;
+  }
+}
+
+.container {
+  width: 92%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+@media screen and (min-width: theme('screens.md')) {
+  .container {
+    width: 94%;
+  }
+}
+@media screen and (min-width: theme('screens.xl')) {
+  .container {
+    max-width: 1280px;
+  }
+}
