@@ -43,3 +43,27 @@
     @apply ml-4;
   }
 }
+
+.react-multiple-carousel__arrow {
+  @apply w-[32px] md:w-[62px];
+  min-width: auto;
+  height: 100%;
+  padding: 0 6px;
+  border-radius: 0;
+  border: none;
+  background-color: rgba(242, 242, 242, 0.5);
+  color: rgb(188, 188, 188);
+}
+.react-multiple-carousel__arrow::before {
+  color: rgb(188, 188, 188);
+}
+.react-multiple-carousel__arrow:hover {
+  background-color: rgba(242, 242, 242, 0.8);
+}
+
+.react-multiple-carousel__arrow--left {
+  left: 0;
+}
+.react-multiple-carousel__arrow--right {
+  right: 0;
+}
